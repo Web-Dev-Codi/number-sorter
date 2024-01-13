@@ -1,4 +1,4 @@
-// const sortButton = document.getElementById("sort");
+const sortButton = document.getElementById("sort");
 
 const sortInputArray = (event) => {
 	event.preventDefault();
@@ -32,7 +32,7 @@ const bubbleSort = (array) => {
 
 	return array;
 };
-// Linux better-commits test
+
 const selectionSort = (array) => {
 	for (let i = 0; i < array.length; i++) {
 		let minIndex = i;
@@ -55,11 +55,12 @@ const insertionSort = (array) => {
 	for (let i = 1; i < array.length; i++) {
 		const currValue = array[i];
 		let j = i - 1;
+
 		while (j >= 0 && array[j] > currValue) {
-			console.log(j);
+			array[j + 1] = array[j];
 			j--;
 		}
 	}
 };
 
-// sortButton.addEventListener("click", sortInputArray);
+sortButton.addEventListener("click", sortInputArray);
