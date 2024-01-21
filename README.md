@@ -1,4 +1,4 @@
-# Learn basic algorithmic thinking by building a number sorter
+#Number Sorter using Vanilla JavaScript 
 Building a number sorter via Freecodecamps new beta projects
 
 
