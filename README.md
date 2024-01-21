@@ -1,4 +1,4 @@
-#Number Sorter using Vanilla JavaScript 
+# Number Sorter using Vanilla JavaScript 
 
 Building a number sorter via Freecodecamps new beta projects
 
